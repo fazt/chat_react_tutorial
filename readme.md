@@ -4,11 +4,11 @@
 ## Mi Sitio Web
 [Visita Mi Sitio Web Para conocer mis Redes](http://www.faztweb.com)
 
-#Instalación del Proyecto
+# Instalación del Proyecto
 - cd chat_react_tutorial
 - `npm install && npm run dev`
 
-## Definir estructura del proyecto
+## Pasos del Tutorial en mi Canal de Youtube
 1. estructura del FrontEnd
   - crear package.json
   - crear directorio public
