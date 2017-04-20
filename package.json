@@ -1,0 +1,26 @@
+{
+  "name": "chat_react_tutorial",
+  "version": "1.0.0",
+  "description": "1. definir estructura del proyecto   - crear directorio public     - crear index.html     - crear package.json 2. crear servidor http con express y socket.io   - `npm install express --save`   - `npm install socket.io --save`   - crear server.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"node server.js\" \"webpack -w\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "socket.io": "^1.7.3"
+  }
+}
