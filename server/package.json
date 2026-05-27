@@ -1,15 +1,17 @@
 {
   "name": "chat-server",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch --env-file=.env server.js"
   },
   "dependencies": {
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
     "socket.io": "^4.8.3"
   }
 }

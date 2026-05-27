@@ -24,3 +24,6 @@ pnpm-debug.log*
 .env
 .env.*
 !.env.example
+
+# agent run logs
+.codex-run/
